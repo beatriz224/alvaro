@@ -1,0 +1,95 @@
+#container {
+  display: flex;
+  flex-direction: column; /* Empilha os elementos verticalmente */
+}
+
+header, footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex: 1; /*Permite que o conteúdo principal ocupe o espaço restante */
+}
+
+.column {
+  padding: 10px;
+  border: 1px dotted #f00;
+}
+
+.left {
+  flex: 2; /*Ajusta a largura da coluna esquerda */
+}
+
+.center {
+  flex: 5; /*Ajusta a largura da coluna central */
+}
+
+.center {
+  flex: 5; /*Ajusta a largura da coluna central */
+}
+
+.right {
+  flex: 1; /*Ajusta a largura da coluna direita */
+}
+
+h2{
+  font-family: serif;
+}
+h1{
+  font-family: serif;
+  
+}
+h3{
+  font-family: serif;
+}
+p{ 
+  font-family: sans-serif;
+  font-size:small ;
+  height: 1.5;
+}
+.especial{
+  font-size: medium;
+}
+.menu-fixo{
+background-color: #999;
+position: fixed;
+line-height: -100px;
+margin-top: -100px;
+}
+blockquote{
+  font-size: medium;
+  font-family: sans-serif;
+  background-color: rgb(188, 180, 216)
+ 
+}
+.referencia{
+  column-count: 2;
+  column-gap: 30px; 
+}
+.coluna{
+  column-count: 2;
+  column-gap: 5px;
+}
+.lista{
+  list-style: none;
+  text-decoration: none;
+  line-height: 25px;
+}
+.img{
+  padding: 20px;
+}
+.cesar2{
+float: right;
+list-style: none;
+}
+.imagem2{
+
+}
+.imagem3{
+
+}
+  
+  
